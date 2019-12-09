@@ -1,3 +1,8 @@
+
+echo
+  echo "###############################################################"
+  echo "############### Installing Pre-req ##################"
+  echo "###############################################################"
 # Update package lists
 
 echo "# Updating package lists"
@@ -27,6 +32,8 @@ nvm use 10.15.3
 echo "# Installing npm"
 npm install npm@5.6.0 -g
 
+echo -n 'Node:'
+node --version
 
 #go install
 echo "# Installing go"
