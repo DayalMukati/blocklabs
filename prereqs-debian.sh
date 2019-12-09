@@ -28,30 +28,43 @@ echo "# Installing nodeJS"
 nvm install 10.15.3
 nvm use 10.15.3
 
-#Install npm 
-echo "# Installing npm"
-npm install npm@5.6.0 -g
 
 echo -n 'Node:'
 node --version
 
+echo "#Sleep for 5 sec"
+sleep 5
+#Install npm 
+echo "# Installing npm"
+npm install npm@5.6.0 -g
+
+echo "#Sleep for 5 sec"
+sleep 5
 #go install
 echo "# Installing go"
 sudo apt install golang-go
 
+echo "#Sleep for 5 sec"
+sleep 5
 #docker install
 
 sudo apt install docker
 echo "# Installing docker"
+
+echo "#Sleep for 5 sec"
+sleep 5
 sudo apt install docker-compose
 
 echo "# Installing docker compose"
 
-
+echo "#Sleep for 5 sec"
+sleep 5
 echo ''
 echo 'Installation completed, versions installed are:'
 echo ''
 echo -n 'Node:           '
+echo "#Sleep for 5 sec"
+sleep 5
 node --version
 echo -n 'npm:            '
 npm --version
